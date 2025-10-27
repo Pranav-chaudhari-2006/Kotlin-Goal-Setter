@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Goal Setter</string>
+
+    <!-- Main Page Strings -->
+    <string name="header_text">Unleash Your Potential!\nWhat\'s Today\'s Target? 🎯</string>
+    <string name="goal_hint">Write your destiny...</string>
+    <string name="button_text">Fake it until you make it</string>
+    <string name="inspirational_quote">&quot;The secret of getting ahead is getting started.&quot;</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="image_desc_subhas_chandra_bose">Image of Subhas Chandra Bose</string>
+
+    <!-- Display Page Strings -->
+    <string name="display_goal_text">Today\'s Goal: %1$s</string>
+    <string name="mission_header">Milestone of Destiny ✨</string>
+    <string name="rocket_emoji">🚀</string>
+    <string name="victory_quote">&quot;Success is not final, failure is not fatal: it is the courage to continue that counts.&quot;</string>
+
+</resources>

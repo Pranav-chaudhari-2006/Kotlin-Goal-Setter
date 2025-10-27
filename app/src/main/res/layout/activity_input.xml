@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/professional_purple_gradient"
+    tools:context=".InputActivity">
+
+    <ImageView
+        android:id="@+id/subhas_chandra_bose_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/subhas_chandra_bose"
+        android:contentDescription="@string/image_desc_subhas_chandra_bose" />
+
+    <ImageView
+        android:id="@+id/shooting_star"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_shooting_star"
+        android:alpha="0.9"
+        android:layout_margin="0dp"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subhas_chandra_bose_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/header_text"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/goal_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_header"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <EditText
+                android:id="@+id/et_goal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/goal_hint"
+                android:padding="16dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/black"
+                android:inputType="textCapSentences"
+                android:autofillHints="name"
+                tools:ignore="TooWide" />
+
+            <Button
+                android:id="@+id/btn_set_goal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/purple_700"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/button_text"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TooWide" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/goal_card"
+        android:layout_marginTop="32dp"
+        android:background="#80FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/inspirational_quote"
+        android:textColor="#CCFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
