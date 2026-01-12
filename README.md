@@ -67,7 +67,3 @@ Kotlin-Goal-Setter/
 ├── gradle/                # Gradle wrapper
 ├── build.gradle           # Build configuration
 └── README.md
-
-
-
-
