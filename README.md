@@ -46,7 +46,7 @@ The app focuses on **clarity, usability, and clean code**, making it a solid fou
 
 ---
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Pranav Chaudhari 
 
